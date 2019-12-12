@@ -1,4 +1,4 @@
-Subsystem_2 Safety
+Subsystem_2: Safety
 =======
 
 *Minimising peak linear acceleration in helmet impact testing*
