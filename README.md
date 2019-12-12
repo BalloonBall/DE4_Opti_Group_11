@@ -1,4 +1,4 @@
-DE4 Opti Coursework 2019/20: Code Submission
+DE4 Optimisation Group 11 Coursework Code Submission
 ============
 This repository is a simple example/shell of how we expect the source code for
 your coursework to be submitted. 
