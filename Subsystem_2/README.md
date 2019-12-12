@@ -8,6 +8,8 @@ Main script
 -------
 The subsystem_2.m MATLAB script should be run.
 
+Please make sure the datafiles:material_liner.csv and material_shell.csv are in the same directory with the main script.
+
 Execution Environment
 -------
 Processor: AMD Ryzen PRO 3300U 2.10GHz
