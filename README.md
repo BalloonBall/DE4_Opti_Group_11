@@ -1,4 +1,4 @@
-DE4 Optimisation Group 11 Code Submission
+DE4 Optimisation 2019/20: Group 11 Code Submission
 ============
 This repository is a simple example/shell of how we expect the source code for
 your coursework to be submitted. 
