@@ -18,10 +18,10 @@ structure:
 Directory Structure
 -----------
 1. System
-2. Subsystem_1
-3. Subsystem_2
-4. Subsystem_3
-5. Subsystem_4 
+2. Subsystem_1: Comfort
+3. Subsystem_2: Safety
+4. Subsystem_3: Sustainability
+5. Subsystem_4: Cost
 
 The System directory should contain all necessary code and files to reproduce
 the results presented for the System optimisation (i.e. Group). 
