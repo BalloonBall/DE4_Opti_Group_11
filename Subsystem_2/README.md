@@ -1,17 +1,31 @@
-This is the README for the Subsystem_2
+Subsystem_2 Safety
 =======
 
-*Example ... Please chage to suit your own system*
+*Minimising peak linear acceleration in helmet impact testing*
 
 
 Main script 
 -------
-The subsystem_2.m MATLAB script should be run
+The subsystem_2.m MATLAB script should be run.
+
+Execution Environment
+-------
+Processor: AMD Ryzen PRO 3300U 2.10GHz
+
+System: Windows 10 Home
 
 Execution time
 -------
-The execution time is approximately XX seconds
+
+The execution time is approximately 35 seconds.
+
+- 5 seconds for data import and processing;
+- 29.80 seconds for interior-point method.
+- 1.032 seconds for SQP method.
+- 0.6824 seconds for active-set method.
 
 Dependencies
 -------
-The script requires only MATLAB_R2018A
+The script requires:
+- MATLAB_R2019b
+- MATLAB Global Optimization Toolbox
