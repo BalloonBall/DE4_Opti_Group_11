@@ -2,7 +2,7 @@ tic
 clc
 clear
 
-%% Exploration of the problem space %%
+%% Exploration of the problem space
 
 % Relationship between partial vapour pressure and inner radius
 M = [];
@@ -104,6 +104,7 @@ disp(table(x(1),x(2),x(3),x(4),x(5),'VariableNames',{'Ri', 'v', 'dT', 'k', 'th'}
 
 %Maximum heat transfer using these variable values:
 disp(['Final Objective Global Search: ' num2str(objective(x))])
+
 
 toc
 
