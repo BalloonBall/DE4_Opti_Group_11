@@ -2,7 +2,7 @@ tic
 clc
 clear
 
-%% Exploration of the problem space
+%% Exploration of the problem space %%
 
 % Relationship between partial vapour pressure and inner radius
 M = [];
