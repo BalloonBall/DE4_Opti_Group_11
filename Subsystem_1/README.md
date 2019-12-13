@@ -17,7 +17,7 @@ The 'singleobjective.m' and 'multiobjective.m' MATLAB scripts should be run from
 
 Execution time
 -------
-The execution time is approximately 3.615 seconds for the 'singleobjective.m' script, and XX seconds for the 'multiobjective.m' script.
+The execution time is approximately 3.615 seconds for the 'singleobjective.m' script, and 6.924 seconds for the 'multiobjective.m' script.
 
 
 Dependencies
