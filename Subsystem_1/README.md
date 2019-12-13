@@ -6,7 +6,8 @@ This subsystem aims to optimise the comfort of a bicycle helmet by maximising he
 
 Main script 
 -------
-The 'singleobjective.m' and 'multiobjective.m' MATLAB scripts should be run.
+The 'singleobjective.m' and 'multiobjective.m' MATLAB scripts should be run from the same directory. Please note that output values may differ to those in the report.
+
 
 Execution time
 -------
