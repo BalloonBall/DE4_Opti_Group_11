@@ -18,8 +18,8 @@ System: Windows 10 Home
 Execution time
 -------
 The execution time is approximately 4 seconds
-- 3 seconds for data import and processing;
-- 0.437 seconds for returning result
+- 3 seconds for data import and processing.
+- 0.437 seconds for returning result.
 
 Dependencies
 -------
