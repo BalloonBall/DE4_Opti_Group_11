@@ -3,6 +3,12 @@ This is the README for the Subsystem_1: Comfort
 
 This subsystem aims to optimise the comfort of a bicycle helmet by maximising heat transfer and minimising weight.
 
+The 'singleobjective.m' script contains an exploration of the problem space, as well as four different fmincon algorithms used for a comparison of the results and optima for heat transfer.
+
+The 'multiobjective.m' script uses a genetic algorithm and various weightings between the heat transfer and mass objectives.
+
+The variable results are displayed in the command window when the scripts are run.
+
 
 Main script 
 -------
