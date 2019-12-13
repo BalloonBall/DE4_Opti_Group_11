@@ -12,7 +12,11 @@ Please make sure the datafiles:material_liner.csv and material_shell.csv are in 
 
 Script for graphics
 -------
+The variable_link.m MATLAB script provides plots that indicate the correlation of different material properties, which helped in generating surrogate models.
 
+The visualize_pla.m MATLAB script provides a surface plot showing the effect of liner thickness and liner density to the peak linear acceleration, without considering the shell.
+
+To excute, please make sure the datafiles:material_liner.csv and material_shell.csv are in the same directory with the scripts.
 
 Execution Environment
 -------
