@@ -15,4 +15,6 @@ Executing the Code
 Please clone/download all folders in this repository and follow the instruction of README provided in each system directory:
 
 1. Install all software/library prerequisites/dependencies needed
-2. Run the main script specified 
+2. Run the main script(s) as specified 
+
+Thank you!
