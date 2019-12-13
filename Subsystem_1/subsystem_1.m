@@ -6,7 +6,6 @@ clear
 %% Exploration of the problem space
 
 % Relationship between partial vapour pressure and inner radius
-
 M = [];
 R = linspace(0.08,0.1);
 
@@ -22,9 +21,7 @@ xlabel('Inner radius (m)')
 ylabel('Partial vapour pressure gradient (Pa)')
 title('Pressure against Radius')
 
-
 %Relationship between helmet mass and inner radius
-
 M = [];
 R = linspace(0.08,0.1);
 
