@@ -1,7 +1,7 @@
 Subsystem_4:Profit
 =======
 
-*Maximising profit by choosing material and change manufacture setting*
+*Maximising profit by choosing material and changing manufacture setting*
 
 
 Main script 
