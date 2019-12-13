@@ -6,12 +6,13 @@ This subsystem aims to optimise the comfort of a bicycle helmet by maximising he
 
 Main script 
 -------
-The subsystem_1.m MATLAB script should be run. 
+The 'singleobjective.m' and 'multiobjective.m' MATLAB scripts should be run.
 
 Execution time
 -------
-The execution time is approximately XX seconds
+The execution time is approximately 3.615 seconds for the 'singleobjective.m' script, and XX seconds for the 'multiobjective.m' script.
+
 
 Dependencies
 -------
-The script requires MATLAB R2018b and the Global Optimisation Toolbox.
+The scripts require MATLAB R2018b and the Global Optimisation Toolbox to be installed.
