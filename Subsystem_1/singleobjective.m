@@ -1,3 +1,5 @@
+%% This is a MATLAB script
+
 tic
 clc
 clear
