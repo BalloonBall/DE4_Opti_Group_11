@@ -5,7 +5,6 @@ clear
 %% Exploration of the problem space
 
 % Relationship between partial vapour pressure and inner radius
-
 M = [];
 R = linspace(0.08,0.1);
 
@@ -23,7 +22,6 @@ title('Pressure against Radius')
 
 
 %Relationship between helmet mass and inner radius
-
 M = [];
 R = linspace(0.08,0.1);
 
@@ -55,7 +53,6 @@ A =[]; b=[]; Aeq=[]; beq=[];
 
 
 %% Algorithm 1: Interior-Point
-
 %tic
 options1 = optimoptions('fmincon','Algorithm','interior-point','plotfcn','optimplotfval');
 [x,fval,ef,output,lambda]=fmincon(@objective,x0,A,b,Aeq,beq,lb,ub,@constraint,options1);
@@ -69,7 +66,6 @@ disp(['Final Objective Interior-Point: ' num2str(objective(x))])
 
 
 %% Algorithm 2: SQP
-
 %tic
 options2 = optimoptions('fmincon','Algorithm','sqp','plotfcn','optimplotfval');
 [x,fval,ef,output,lambda]=fmincon(@objective,x0,A,b,Aeq,beq,lb,ub,@constraint,options2);
@@ -83,7 +79,6 @@ disp(['Final Objective SQP: ' num2str(objective(x))])
 
 
 %% Algorithm 3: Active-Set
-
 %tic
 options3 = optimoptions('fmincon','Algorithm','active-set','plotfcn','optimplotfval');
 [x,fval,ef,output,lambda]=fmincon(@objective,x0,A,b,Aeq,beq,lb,ub,@constraint,options3);
@@ -97,7 +92,6 @@ disp(['Final Objective Active-Set: ' num2str(objective(x))])
 
 
 %% Algorithm 4: Global Search
-
 rng default
 
 %tic
@@ -112,6 +106,7 @@ disp(table(x(1),x(2),x(3),x(4),x(5),'VariableNames',{'Ri', 'v', 'dT', 'k', 'th'}
 disp(['Final Objective Global Search: ' num2str(objective(x))])
 
 toc
+
 
 %% Objective Function & Non-linear Constraints
 
